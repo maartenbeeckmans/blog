@@ -1,0 +1,51 @@
+baseURL = "http://maartenbeeckmans.github.io/"
+languageCode = "en-us"
+title = "Maarten Beeckmans"
+theme = "erblog"
+
+[params]
+  author = "Maarten Beeckmans"
+  bio = """
+  Open source consultant @ Inuits 
+  <br>
+  Studied Applied Informatics @ University College Ghent
+  """
+  description = "Open source consultant"
+  badge = "blue"
+  copyright = "Copyright 2020 - Maarten Beeckmans"
+
+# Add Menu entries
+[[menu.main]]
+  url = "/zone/"
+  name = "Zone"
+  weight = 5
+[[menu.main]]
+  page = "/about/"
+  name = "About"
+  weight = 6
+
+# Add Footer entries
+[[menu.footer]]
+  identifier = "home"
+  name = "home"
+  url = "/"
+  weight = "1"
+[[menu.footer]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+# Add contact links
+[[menu.icon]]
+  url = "mailto:maartenb@inuits.eu"
+  name = "envelope-o"
+  weight = 1
+[[menu.icon]]
+  url = "https://github.com/maartenbeeckmans/"
+  name = "github"
+  weight = 1
+[[menu.icon]]
+  url = "https://www.linkedin.com/in/beeckmansmaarten/"
+  name = "linkedin"
+  weight = 1
