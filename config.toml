@@ -20,21 +20,9 @@ theme = "erblog"
   name = "Zone"
   weight = 5
 [[menu.main]]
-  page = "/about/"
-  name = "About"
-  weight = 6
-
-# Add Footer entries
-[[menu.footer]]
-  identifier = "home"
-  name = "home"
-  url = "/"
-  weight = "1"
-[[menu.footer]]
-  identifier = "about"
   name = "About"
   url = "/about/"
-  weight = 2
+  weight = 6
 
 # Add contact links
 [[menu.icon]]
