@@ -1,6 +1,9 @@
 ---
 title: "Using VimWiki and git to manage notes"
 date: 2020-06-10T10:37:05+02:00
+tags:
+  - vim
+  - git
 draft: false
 ---
 
